@@ -9,7 +9,7 @@
   <groupId>club.easy-utils</groupId>
   <artifactId>easy-youshu</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-SNAOSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
 
   <!-- 描述信息 -->
   <name>Easy WePay</name>
