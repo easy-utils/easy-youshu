@@ -9,13 +9,13 @@
   <groupId>club.easy-utils</groupId>
   <artifactId>easy-youshu</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <!-- 描述信息 -->
-  <name>Easy WePay</name>
+  <name>Easy YouShu</name>
   <url>https://easy-utils.club</url>
   <description>
-    A easy way to connect with Wechat Payment Background Interface for developer.
+    A easy way to connect with Wechat YouShu Background Interface for developer.
   </description>
   <!-- 项目成立年份，非必须 -->
   <inceptionYear>2020</inceptionYear>
