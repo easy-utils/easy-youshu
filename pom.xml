@@ -9,7 +9,7 @@
   <groupId>club.easy-utils</groupId>
   <artifactId>easy-youshu</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
 
   <!-- 描述信息 -->
   <name>Easy YouShu</name>
@@ -55,13 +55,6 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
     </repository>
   </distributionManagement>
-  <!--  <distributionManagement>-->
-  <!--    <repository>-->
-  <!--      <id>easy-youshu</id>-->
-  <!--      <name>easy wepay</name>-->
-  <!--      <url>https://maven.pkg.github.com/easy-utils/easy-youshu</url>-->
-  <!--    </repository>-->
-  <!--  </distributionManagement>-->
 
   <!-- 开发者列表，个人的话就写自己，团队就罗列所有成员 -->
   <developers>
@@ -151,6 +144,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>club.easy-utils</groupId>
+      <artifactId>easy-weprogram</artifactId>
+      <version>0.0.2-SNAOSHOT</version>
+    </dependency>
+
   </dependencies>
 
   <build>

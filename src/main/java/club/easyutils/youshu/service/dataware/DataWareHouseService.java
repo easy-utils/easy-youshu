@@ -1,4 +1,4 @@
-package club.easyutils.youshu.service;
+package club.easyutils.youshu.service.dataware;
 
 import club.easyutils.youshu.model.data.request.DataWareHouseAddRequest;
 import club.easyutils.youshu.model.data.request.DataWareHouseGetRequest;

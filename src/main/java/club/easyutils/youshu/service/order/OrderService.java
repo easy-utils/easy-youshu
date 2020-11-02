@@ -1,4 +1,4 @@
-package club.easyutils.youshu.service;
+package club.easyutils.youshu.service.order;
 
 import club.easyutils.youshu.model.order.request.OrderAddOrUpdateRequest;
 import club.easyutils.youshu.model.order.response.OrderAddOrUpdateResponse;
