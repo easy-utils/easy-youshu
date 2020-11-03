@@ -1,8 +1,9 @@
 package club.easyutils.youshu.model.data.response;
 
-import lombok.*;
-
-import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 /**
  * 数据仓库响应模型
@@ -14,6 +15,6 @@ import java.util.List;
 @AllArgsConstructor
 public class DataSourceParent {
 
-    private List<DataSource> dataSource;
+    private DataSource dataSource;
 
 }

@@ -1,21 +1,22 @@
 package club.easyutils.youshu.model.data.response;
 
-import club.easyutils.youshu.model.BaseResponseModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 /**
- * 添加数据仓库
+ * 数据仓库响应模型
  * @author rainyblossom
  */
 @Setter
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class DataWareHouseGetResponse extends BaseResponseModel {
+public class DataSourceGetParent {
 
-    private DataSourceGetParent data;
+    private List<DataSource> dataSources;
 
 }

@@ -1,6 +1,5 @@
 package club.easyutils.youshu.config;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,6 +9,13 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public interface HostConfig {
+
+
+    /**
+     * 获取商家id
+     * @return
+     */
+    String getMerchantId();
 
     /**
      * 获取接口地址
@@ -35,5 +41,17 @@ public interface HostConfig {
      * @return
      */
     String getAppSecret();
+
+    /**
+     * 获取主订单上报仓库id
+     * @return
+     */
+    String getAddOrder();
+
+    /**
+     * 获取微信小程序页面访问上报仓库id
+     * @return
+     */
+    String getAddWxappVisitPage();
 
 }

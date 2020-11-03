@@ -31,5 +31,9 @@ public enum DataWareHouseConfig {
     public String getUrl() {
         return HostUtil.convert(url);
     }
+    
+    public String getUrl(int dataSourceType, String merchantId) {
+        return HostUtil.convert(dataSourceType, merchantId, url);
+    }
 
 }

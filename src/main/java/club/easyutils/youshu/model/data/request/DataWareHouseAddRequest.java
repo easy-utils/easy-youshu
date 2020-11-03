@@ -38,5 +38,5 @@ public class DataWareHouseAddRequest extends BaseRequestModel {
      * 卡券信息	13	卡券信息数据仓库，对于上报接口 /order/add_coupon
      * 汇总订单	51	汇总订单数据仓库, 对应上报接口 /order/add_order_sum
      */
-    private String dataSourceType;
+    private Integer dataSourceType;
 }

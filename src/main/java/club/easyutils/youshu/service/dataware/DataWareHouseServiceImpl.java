@@ -20,7 +20,7 @@ public class DataWareHouseServiceImpl implements DataWareHouseService{
     }
 
     @Override
-    public DataWareHouseGetResponse get() {
-        return (DataWareHouseGetResponse) HttpUtil.doGet(DataWareHouseConfig.DATA_WARE_HOUSE_GET.getUrl(), DataWareHouseGetResponse.class).getBody();
+    public DataWareHouseGetResponse get(Integer dataSourceType, String merchantId) {
+        return (DataWareHouseGetResponse) HttpUtil.doGet(DataWareHouseConfig.DATA_WARE_HOUSE_GET.getUrl(dataSourceType, merchantId), DataWareHouseGetResponse.class).getBody();
     }
 }
