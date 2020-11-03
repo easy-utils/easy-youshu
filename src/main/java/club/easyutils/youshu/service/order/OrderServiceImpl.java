@@ -1,6 +1,6 @@
 package club.easyutils.youshu.service.order;
 
-import club.easyutils.youshu.config.DataWareHouseConfig;
+import club.easyutils.youshu.config.AddOrderConfig;
 import club.easyutils.youshu.model.order.request.OrderAddOrUpdateRequest;
 import club.easyutils.youshu.model.order.response.OrderAddOrUpdateResponse;
 import club.easyutils.youshu.util.HttpUtil;
@@ -17,7 +17,7 @@ public class OrderServiceImpl implements OrderService{
 
     @Override
     public OrderAddOrUpdateResponse addOrUpdate(OrderAddOrUpdateRequest request) {
-        return (OrderAddOrUpdateResponse) HttpUtil.doPost(DataWareHouseConfig.DATA_WARE_HOUSE_ADD.getUrl(), request, OrderAddOrUpdateResponse.class).getBody();
+        return (OrderAddOrUpdateResponse) HttpUtil.doPost(AddOrderConfig.ADD_ORDER.getUrl(), request, OrderAddOrUpdateResponse.class).getBody();
 
     }
 }

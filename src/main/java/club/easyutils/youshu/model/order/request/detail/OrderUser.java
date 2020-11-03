@@ -1,6 +1,9 @@
 package club.easyutils.youshu.model.order.request.detail;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * 用户信息，json格式
@@ -15,13 +18,11 @@ public class OrderUser {
      * 下单人 open_id
      * order_source = wxapp时，必填
      */
-    @NonNull
     private String open_id;
 
     /**
      * 小程序或公众号的appid
      */
-    @NonNull
     private String app_id;
 
     /**
